@@ -3,7 +3,7 @@ pipeline {
 		stages {
 			stage ('Git Checkout') {
 				steps {
-					git branch: 'nader', url: 'https://github.com/Naderbenmrad/DevOps.git'
+					git branch: 'nader', url: 'https://github.com/Naderbenmrad/DevOps'
 				}
 			}
 			stage ('Maven Build') {
